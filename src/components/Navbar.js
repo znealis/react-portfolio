@@ -7,7 +7,7 @@ const Navbar = () => {
     const handleToggle = () => setToggle(!toggle);
 
     return (
-        <header className="flex jusitfy-between px-5 py-2 bg-primary text-white fixed w-full z-10">
+        <header className="flex justify-between px-5 py-2 bg-primary text-white fixed w-full z-10">
             <a href="/" className="logo text-2x1 font-bold text-accent">
                 Zach
             </a>
@@ -36,7 +36,7 @@ const Navbar = () => {
             </nav>
 
             {/* Mobile Nav */}
-            <nav className={!toggle ? "mobile-nav left-[-100%" : "mobile-nav left-0"}>
+            <nav className={!toggle ? "mobile-nav left-[-100%]" : "mobile-nav left-0"}>
                 <ul className="flex flex-col">
                     <li>
                         <a href="/#about">About</a>

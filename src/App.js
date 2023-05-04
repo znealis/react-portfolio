@@ -1,13 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
 import React from "react";
-import About from "./compnents/About";
-import Contact from "./compnents/Contact";
-import Navbar from "./compnents/Navbar";
-import Projects from "./compnents/Projects";
-import Skills from "./compnents/Skills";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
+import Footer from "./components/Footer";
 
-export default function App() {
+function App() {
   return (
     <main>
       <Navbar />
@@ -15,7 +15,9 @@ export default function App() {
       <Projects />
       <Skills />
       <Contact />
+      <Footer />
     </main>
   );
 }
 
+export default App;
