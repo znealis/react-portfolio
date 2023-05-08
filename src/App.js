@@ -1,5 +1,6 @@
 import './App.css';
 import React from "react";
+import Hero from "./components/Hero.js";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
@@ -11,6 +12,7 @@ function App() {
   return (
     <main>
       <Navbar />
+      <Hero />
       <About />
       <Projects />
       <Skills />

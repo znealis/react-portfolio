@@ -1,19 +1,18 @@
 import React from "react";
-
+import { projects } from "../data";
 
 const Projects = () => {
-    const projects = [];
 
     return (
-        <section className="bg-primary text-white px-5 py-32" id="projects">
+        <section className="bg-secondery text-white px-5 py-32" id="projects">
             <div className="container mx-auto grid md:grid-cols-2 items-center md:justify-between">
                 <div className="about-info mb-5">
-                    <h2 className="text-4x1 font-bold mb-5 border-b-[5px] w-[180px] border-indigo-600 pb-2">
+                    <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[180px] border-[#73e2a7] pb-2">
                         Projects
                     </h2>
 
                     <p className="pb-5">
-                        These are some of my best projectts. I have built these with React, MERN and CSS.
+                        These are some of my projects. Each of these built using different stacks.
                     </p>
                 </div>
 
@@ -29,12 +28,6 @@ const Projects = () => {
                                     <p className="py-5 text-center font-bold px-2 text-white">
                                         {project.desc}
                                     </p>
-
-                                    <div className="mx-auto">
-                                        <a href={project.code} className="px-5 py-2 bg-blue-700 hover:bg-blue-800 font-bold">
-                                            Code
-                                        </a>
-                                    </div>
                                 </div>
                             </div>
                         );

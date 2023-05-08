@@ -8,7 +8,7 @@ const Navbar = () => {
 
     return (
         <header className="flex justify-between px-5 py-2 bg-primary text-white fixed w-full z-10">
-            <a href="/" className="logo text-2x1 font-bold text-accent">
+            <a href="/" className="logo text-2xl font-bold text-accent">
                 Zach
             </a>
 
@@ -22,13 +22,13 @@ const Navbar = () => {
                         <a href="/#projects">Projects</a>
                     </li>
                     <li>
-                        <a href="/#contact">Contacts</a>
-                    </li>
-                    <li>
                         <a href="/#skills">Skills</a>
                     </li>
                     <li>
-                        <a href="#resume -link" target="_blank" without rel="noreferrer">
+                        <a href="/#contact">Contact</a>
+                    </li>
+                    <li>
+                        <a href="https://docs.google.com/document/d/1Xfk0ZAIp7cSXIhB-qOz8CMnJEx6EM6v8/edit?usp=share_link&ouid=118017617026382953739&rtpof=true&sd=true" target="_blank" without rel="noreferrer">
                             Resume
                         </a>
                     </li>
