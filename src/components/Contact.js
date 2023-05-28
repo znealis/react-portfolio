@@ -10,8 +10,7 @@ const Contact = () => {
                 </h2>
                 <p>
                     I am currently pursuing a full time Frontend Developer and/or Cyber Security position 
-                    to kickstart my career and further enchance my skill set in the industry.
-                    open for a fulltime Frontend Developer role. 
+                    to kickstart my career and further enchance my skill set in the industry. 
                     To discuss potential opportunities, I can be reached at information below.
                 </p>
 
