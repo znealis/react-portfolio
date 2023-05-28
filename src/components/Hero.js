@@ -18,7 +18,7 @@ const Hero = () => {
                     </h1>
 
                     <p className="py-5">
-                        As a Frontend Developer, I utilize technonlogies like React.Js and Tailwind CSS to curate perfect visusauls for various businesses. 
+                        As a Frontend Developer, I utilize technonlogies like React.Js and Tailwind CSS to curate perfect visuals for various businesses. 
                     </p>
 
                     <div className="flex py-5">
