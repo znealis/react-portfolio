@@ -13,12 +13,12 @@ const Hero = () => {
             <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
                 <div className="hero-info pb-5 md:pb-0">
                     <h1 className="text-4xl lg:text-6xl">
-                        Hey, <br /> I'm <span className="text-accent">Zach</span> <br />
+                        Hi, <br /> my name is  <span className="text-accent">Zachary Nealis!</span> <br />
                         Frontend Developer/CyberSecurity Professional
                     </h1>
 
                     <p className="py-5">
-                        I am proficient in Javascript, React.js, Python, and CSS
+                        As a Frontend Developer, I utilize technonlogies like React.Js and Tailwind CSS to curate perfect visusauls for various businesses. 
                     </p>
 
                     <div className="flex py-5">

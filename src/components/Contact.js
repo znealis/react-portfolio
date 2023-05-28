@@ -9,9 +9,10 @@ const Contact = () => {
                     Contact Me
                 </h2>
                 <p>
-                    I am currently open for a fulltime Frontend Developer role. 
-                    As well as open for Entry level Cyber Security positions.
-                    Reach out if you would like to dicuss potentional opportunity.
+                    I am currently pursuing a full time Frontend Developer and/or Cyber Security position 
+                    to kickstart my career and further enchance my skill set in the industry.
+                    open for a fulltime Frontend Developer role. 
+                    To discuss potential opportunities, I can be reached at information below.
                 </p>
 
                 <p className="py-2">
