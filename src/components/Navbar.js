@@ -39,19 +39,19 @@ const Navbar = () => {
             <nav className={!toggle ? "mobile-nav left-[-100%]" : "mobile-nav left-0"}>
                 <ul className="flex flex-col">
                     <li>
-                        <a href="/#about">About</a>
+                        <a href="/#about" onClick={handleToggle}>About</a>
                     </li>
                     <li>
-                        <a href="/#projects">Projects</a>
+                        <a href="/#projects" onClick={handleToggle}>Projects</a>
                     </li>
                     <li>
-                        <a href="/#contact">Contacts</a>
+                        <a href="/#contact" onClick={handleToggle}>Contacts</a>
                     </li>
                     <li>
-                        <a href="/#skills">Skills</a>
+                        <a href="/#skills" onClick={handleToggle}>Skills</a>
                     </li>
                     <li>
-                        <a href="/#resume">Resume</a>
+                        <a href="/#resume" onClick={handleToggle}>Resume</a>
                     </li>
                 </ul>
             </nav>
